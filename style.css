@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* 🌈 Living sky */
+#sky {
+  position: fixed;
+  inset: 0;
+  background: linear-gradient(180deg, #e9fff4, #c8f7dc, #ffffff);
+  animation: skyBreath 18s ease-in-out infinite;
+  transition: background 3s;
+  z-index: -3;
+}
+
+@keyframes skyBreath {
+  0% { filter: brightness(1); }
+  50% { filter: brightness(1.12); }
+  100% { filter: brightness(1); }
+}
+
+/* 🌞 Light aura */
+#sunGlow {
+  position: fixed;
+  top: 15%;
+  left: 50%;
+  width: 340px;
+  height: 340px;
+  transform: translateX(-50%);
+  background: radial-gradient(
+    circle,
+    rgba(255,255,210,0.65),
+    transparent 70%
+  );
+  animation: glowPulse 12s ease-in-out infinite;
+  z-index: -2;
+}
+
+@keyframes glowPulse {
+  0% { transform: translateX(-50%) scale(1); }
+  50% { transform: translateX(-50%) scale(1.18); }
+  100% { transform: translateX(-50%) scale(1); }
+}
+
+/* 🌱 Garden */
+#garden {
+  height: 100vh;
+  text-align: center;
+  padding-top: 140px;
+  position: relative;
+}
+
+#plant {
+  font-size: 96px;
+  animation: breathe 6s ease-in-out infinite;
+}
+
+/* 🌬️ Breathing */
+@keyframes breathe {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.14); }
+  100% { transform: scale(1); }
+}
+
+#message {
+  margin-top: 36px;
+  font-size: 22px;
+  color: #2f5d50;
+}
+
+/* ✨ Subtle focus particles */
+.particle {
+  position: absolute;
+  bottom: 120px;
+  font-size: 14px;
+  opacity: 0.6;
+  animation: floatUp 6s linear forwards;
+}
+
+@keyframes floatUp {
+  to {
+    transform: translateY(-260px);
+    opacity: 0;
+  }
+}
+
+/* 🌸 Hidden bloom */
+.bloom {
+  position: absolute;
+  bottom: 100px;
+  font-size: 22px;
+  opacity: 0;
+  animation: bloomIn 4s ease forwards;
+}
+
+@keyframes bloomIn {
+  to {
+    opacity: 1;
+    transform: translateY(-20px);
+  }
+}
+
+/* ✨ Fireflies */
+.firefly {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background: rgba(255,255,180,0.85);
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(255,255,180,0.9);
+  animation: drift 8s linear forwards;
+}
+
+@keyframes drift {
+  to {
+    transform: translateY(-220px) translateX(40px);
+    opacity: 0;
+  }
+}
+
+/* ❌ Distraction */
+.distracted {
+  filter: grayscale(1) blur(2px);
+}
