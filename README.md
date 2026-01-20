@@ -57,12 +57,3 @@ Instead of scores or instructions, this project explores **behavior-driven inter
 
 ---
 
-## 📷 Demo Screenshot (Optional)
-
-![Focus Garden Screenshot](screenshot.png)
-
----
-
-## 📂 Project Structure
-
-
