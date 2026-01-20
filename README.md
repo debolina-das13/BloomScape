@@ -7,18 +7,18 @@ Instead of scores or instructions, this project explores **behavior-driven inter
 
 ---
 
-## 🎯 Features
+##  Features
 
-- 🌳 **Tree grows subtly** as time passes  
-- 🌸 **Hidden bloom** after 30 seconds of calm (flowers appear)  
-- ✨ **Fireflies float** after the bloom  
-- 🕊️ Interaction resets the calm timer  
-- 💡 Encourages mindfulness and focus  
-- 🖥️ Works in any modern browser  
+- **Tree grows subtly** as time passes  
+- **Hidden bloom** after 30 seconds of calm (flowers appear)  
+-  **Fireflies float** after the bloom  
+-  Interaction resets the calm timer  
+-  Encourages mindfulness and focus  
+-  Works in any modern browser  
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1. Clone the repository or download the files.
 2. Make sure you have these three files together:
@@ -31,7 +31,7 @@ Instead of scores or instructions, this project explores **behavior-driven inter
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 - **Calm Timer**: A JavaScript timer checks for 30 seconds of inactivity.
 - **Hidden Bloom**: After 30 seconds of calm, a CSS animation triggers the bloom and floating fireflies.
@@ -40,7 +40,7 @@ Instead of scores or instructions, this project explores **behavior-driven inter
 
 ---
 
-## 💡 Why This Is Unique
+##  Why This Is Unique
 
 - No instructions, no scoring → the interaction itself is the game.  
 - Encourages mindfulness and rewards patience.  
@@ -49,7 +49,7 @@ Instead of scores or instructions, this project explores **behavior-driven inter
 
 ---
 
-## 🖥️ Tech Stack
+##  Tech Stack
 
 - HTML  
 - CSS (animations and transitions)  
